@@ -52,15 +52,16 @@ function App() {
     <Routes>
       <Route path="" element = {<Home />}/>
       <Route path="Campaign"element={ <Campaign/>}/>
+      <Route path="card1"element={<Card1/>}/>
+      <Route path="card2"element={<Card2/>}/>
+      <Route path="card3"element={<Card3/>}/>
+      <Route path="card4"element={<Card4/>}/>
+      <Route path="card5"element={<Card5/>}/>
+      <Route path="card6"element={<Card6/>}/>
       <Route path="Signup"element={<Signup/>}/>
       <Route path="Login"element={<Login/>}/>
       <Route path="Aboutus"element={<Aboutus/>}/>
-      <Route path="card1"element={<Card1/>}/>
-      <Route path="card1"element={<Card2/>}/>
-      <Route path="card1"element={<Card3/>}/>
-      <Route path="card1"element={<Card4/>}/>
-      <Route path="card1"element={<Card5/>}/>
-      <Route path="card1"element={<Card6/>}/>
+      
     </Routes>
       
   </div>

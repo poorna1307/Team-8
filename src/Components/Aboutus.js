@@ -18,6 +18,7 @@ function Aboutus(){
                     <div className='card card-body w-100 h-100 m-3 mx-auto shadow'>
                         <img className=''src={image1} alt="" height="319px"/>
                         <div className="text-center mt-4">
+                            {/* <h1>hello ahljkshdflkja</h1> */}
                            <p>On April 30, BMRCL invited objections against 1,026 trees that need to be axed for Namma Metro Phase 2A. Since most citizens could not focus on assessing the impacts, Jhatkaa.org launched a petition asking Government authorities to postpone the deadline until lockdown is lifted. After emails, calls from many Jhakaa.org members, this deadline has been postponed to 10 days after the lockdown is lifted. Our collective effort helped us preserve more than a thousand trees in Bangalore.</p>
                         </div>
                     </div>

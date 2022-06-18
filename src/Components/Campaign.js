@@ -18,7 +18,7 @@ function Campaign() {
                         <div className="text-center mt-4">
 
                             <p>STOP the burn in Aarey</p>
-                            <Link className="nav-link" to="Card1"><button>More det..</button> </Link>
+                            <Link className="nav-link" to="card1"><button>More det..</button> </Link>
                         </div>
 
                     </div>
