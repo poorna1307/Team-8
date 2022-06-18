@@ -4,6 +4,13 @@ import Signup from './Components/Signup'
 import Login from './Components/Login'
 import Campaign from './Components/Campaign'
 import Aboutus from './Components/Aboutus'
+import Card1 from './Components/Card1'
+import Card3 from './Components/Card3'
+import Card2 from './Components/Card2'
+import Card4 from './Components/Card4'
+import Card5 from './Components/Card5'
+import Card6 from './Components/Card6'
+
 
 function App() {
   return(
@@ -36,6 +43,7 @@ function App() {
         <li className="nav-item">
           <Link className="nav-link" to="Aboutus">Aboutus</Link>
         </li>
+  
       </ul>
     </div>
   </div>
@@ -47,6 +55,12 @@ function App() {
       <Route path="Signup"element={<Signup/>}/>
       <Route path="Login"element={<Login/>}/>
       <Route path="Aboutus"element={<Aboutus/>}/>
+      <Route path="card1"element={<Card1/>}/>
+      <Route path="card1"element={<Card2/>}/>
+      <Route path="card1"element={<Card3/>}/>
+      <Route path="card1"element={<Card4/>}/>
+      <Route path="card1"element={<Card5/>}/>
+      <Route path="card1"element={<Card6/>}/>
     </Routes>
       
   </div>
