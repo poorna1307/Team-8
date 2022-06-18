@@ -17,7 +17,24 @@ function Login() {
         <div>
             <h1 className=" text-center text-dark mt-4">Login</h1>
             <form className='w-50 mx-auto mt-5  bg-light shadow p-5' onSubmit={handleSubmit(onFormSubmit)}>
-     
+            <div className="row mt-4">      
+                    <div className="col-3">
+                        <label>Users</label>
+                    </div>
+                    <div className="col">
+                    <div>
+                        
+                        <input type="radio" name="" id="admin" className="form-radio-input" placeholder="Disabled input"{...register("User")} value="Campaigner"/>
+                        <label htmlFor="admin" className="form-radio-label">Campaigner</label>
+                    </div>
+                
+                    <div className="mt-3">
+                       
+                        <input type="radio" name="" id="volunteer" className="form-radio-input"{...register("User")} value="Volunteer"/>
+                        <label htmlFor="volunteer" className="form-radio-label">Volunteer</label>
+                    </div>
+                </div>
+              </div>
                 <div className="mb-3 mt-3">
                     <label className=" mt-3" htmlFor="username">Username</label>
                     <input type="text"
